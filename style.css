@@ -1,0 +1,165 @@
+html, body{
+    background-image: url(backg.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body a:hover{
+    color: rgb(245, 145, 162);
+    transition: 0.3s;
+}
+body a:active{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+header{
+    opacity: 0.9;
+    color: white;
+    z-index: 999;
+    background-color: pink;
+    position: fixed;
+    width: 100%;
+    height: 5em;
+    align-items: center;
+    display: flex;
+    box-sizing:border-box;
+    padding: 0.625em 0.938em;
+    justify-content: space-between;
+    top: 0;
+    left:0;
+   
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.563em;
+    margin-right: 0.625em;
+}
+
+.name{
+    font-size: 2.5em;
+    margin-left: 1.563em;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    padding-top: 5.625em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1.25em 6.25em;
+}
+
+.info{
+    line-height: 1.875em;
+    margin-top: 1.875em;
+}
+.title{
+    font-size: 6.25em;
+    color: pink;
+    padding-bottom: 0.625em;
+}
+.introduction{
+    font-size: 1.563em;
+    width: 40em;
+}
+
+
+.card-title{
+    color: pink;
+    margin-bottom: 2.5em;
+    width: 100%;
+    text-align: center;
+    font-size: 3em
+}
+
+.card{
+    border-style:solid ;
+    border-width: 0.063em;
+    border-color: pink;
+    align-items: center;
+    width: 12.5em;
+    height: auto;
+    text-align: center;
+    padding: 0.625em;
+}
+.icon a{
+    font-size: 1.875em;
+    color: pink;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.625em;
+    padding: 15.625em;
+}
+
+.button{
+    background-color: rgb(241, 241, 224);
+    width: 19.625em;    
+    height: 23em;
+    border-color: pink;
+    border-style:dashed;
+
+}
+.button h1{
+    color: pink;
+    font-size: 1.75em;
+    font-weight: 400;
+}
+.button img{
+    width: 9.25em;
+    height: 12.375em;
+    object-fit: cover;
+    border-radius: 0.625em;
+}
+
+.button:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.button:active{
+    opacity: 0.6;
+    transition: 0.2s;
+    opacity:calc(0.6);
+}
+.contacts h1{
+    font-size: 2.813em;
+    color: pink;
+}
+
+.contacts{
+    text-align: center;
+    padding: 15.625em;
+}
+
+.contacts a{
+    text-decoration: none;
+    font-size: 1.875em;
+    color: pink;
+}
+
+.policy{
+    padding: 15.625em 9.375em;
+    
+    text-align: center;
+    color: pink;
+}
+
+.policy h1{
+    font-size: 2.813em;
+}
+.policy ul{
+    font-size: 1.875em;
+    line-height: 4.375em;
+}
